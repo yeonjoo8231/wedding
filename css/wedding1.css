@@ -1,0 +1,79 @@
+@charset "utf-8";
+* {margin: 0; padding: 0; box-sizing: border-box;}
+a {text-decoration: none; color: inherit;}
+table {width: 100%; border-collapse: collapse;}
+ul {list-style-type: none;}
+img {max-width: 100%; vertical-align: middle;}
+
+.row {max-width: 980px; margin: 0px auto;}
+html, body, #wrap {height: 100%;}
+
+#header {
+    height: 100%;
+    background: url(../img/wedding_couple.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+#header > #title
+    {position: absolute;
+    left: 50%; top: 50%;
+    margin-left: -191px; margin-top: -112.5px;}
+#header h1 {
+    font-size: 64px;
+}
+#header p:nth-of-type(1) {
+    margin: 20px 0px;
+}
+
+#nav {
+    background: rgba(255,255,255, 0.75);
+    padding: 10px 5px;
+    position: fixed; left: 0px; bottom: 0px;
+    width: 100%;
+    z-index: 99;
+}
+#nav li {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+}
+#nav li a {
+    display: block;
+    padding: 10px 0px;
+}
+#nav li:hover a {
+    background: #999;
+}
+#nav li:last-child:hover a {
+    background: #000;
+    color: #fff;
+}
+
+#section {background: pink;}
+#section h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 64px 0px;
+}
+#section img {
+    border-radius: 10px;
+    width: 100%;
+}
+.article1 p {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 2em;
+    padding: 50px 0px;
+}
+.article1 .btn {text-align: center;}
+.article1 .btn>a {
+    display: inline-block;
+    background: #000;
+    border-radius: 10px;
+    padding: 15px 24px;
+    color: #fff;
+    font-size: 18px;
+}
